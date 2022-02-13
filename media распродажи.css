@@ -1,0 +1,41 @@
+@media (max-width: 800px) {
+    .container{
+        width: 560px;
+    }
+.sec-main h3{
+    font-size: 14px;
+}
+.sec-main p{
+    font-size: 9px;
+}
+.sec-main  strong{
+    font-size: 10px;
+}
+.sec-main{
+    margin-right: -20px;
+}
+.headeer-top-right img{
+    width: 0;
+}
+.header-top{
+    margin-right: -20px;
+}
+.headeer-top-right button{
+    width: 0;
+}
+}
+
+@media (max-width: 460px) {
+    .container{
+        width: 300px;
+    }
+    .sec-main{
+        flex-wrap: wrap;
+    }
+    .sec-card{
+        width: 100%;
+    }
+    .header-top{
+        margin-left: -30px;
+    }
+}

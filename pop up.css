@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.popup{
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 20px;
+    border-radius: 20px;
+    display: none;
+    position: fixed;
+    margin-left: 33.3%;
+}
+.popup span{
+    color: #00C97B;
+}
+.popup form{
+    margin-top: 20px;
+}
+.popup h4{
+    margin-top: 15px;
+}
+.popup input{
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 0;
+}
+.popup p{
+    color: grey;
+    margin-top: 20px;
+}
+.pop-up-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+width: 100%;
+    margin-top: 20px;
+}
+.pop-up-bottom-right{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.pop-up-bottom button{
+    color: white;
+    background-color: #00C97B;
+    padding: 15px 55px;
+    border: none;
+border-radius: 20px;
+}
+.popup.active{
+    display: block;
+}
+.pop-img{
+    margin: 0 40px 0 0;
+}

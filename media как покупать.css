@@ -1,0 +1,35 @@
+@media (max-width: 950px) {
+    .container{
+        width: 780px;
+    }
+}
+@media (max-width: 780px) {
+    .container{
+        width: 570px;
+    }
+}
+@media (max-width: 600px) {
+    .container{
+        width: 350px;
+    }
+    .header-top{
+margin-top: 80px;
+        width: 80%;
+        margin-right: 45px;
+        margin-left: -20px;
+    }
+    .headeer-top-right{
+        margin-right: 50px;
+        margin-left: -15px;
+    }
+    .headeer-top-right img{
+        width: 0;
+    }
+    .headeer-top-right button{
+       width: 0;
+    }
+    .sec-card-left img{
+        width: 120%;
+        margin-left: -50px;
+    }
+}

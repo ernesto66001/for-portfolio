@@ -1,0 +1,25 @@
+.owl-carousel{
+    display: block !important;
+}
+.owl-carousel .owl-item img{
+    width: 30%;
+}
+.owl-prev{
+width: 35px;
+    height: 30px;
+    background: url("image/Vector 5.png") center/cover no-repeat;
+
+    background-size: 20px 20px;
+    position: relative;
+    right: calc(880px - 30px);
+    top: 8px;
+}
+.owl-next{
+    width: 35px;
+height: 30px;
+    background: url("image/Vector 6.png") center/cover no-repeat;
+    background-size: 20px 20px;
+    position: relative;
+bottom: 15px ;
+    left:-50px;
+}
